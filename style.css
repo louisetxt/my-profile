@@ -1,0 +1,126 @@
+body {
+	background-color: #F8EDE3;
+	color: #5F7161;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+
+}
+h1, h2, h3 {
+	font-family: Times;
+}
+h1 {
+	color: #6D8B74;
+	font-weight: bolder;
+	font-size: 37px;
+
+}
+h2 {
+	color: sagegreen;
+	font-size: 25PX;
+}
+a {
+	font-family: Times;
+	font-weight: 600;
+	text-decoration: none;
+	color: #D0B8A8;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: steelblue;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 670px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: floralwhite;
+	padding: 40px;
+	box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-beige {
+	background-color: #D0B8A8;
+	color: ghostwhite;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.btn-beige:hover {
+	background-color: rosybrown;
+	color: whitesmoke;
+}
+
+.btn-sand {
+	background-color: #D0B8A8;
+	color: whitesmoke;
+	padding: 4px 9px;
+	border-radius: 5px;
+}
+
+.btn-sand:hover {
+	background-color: #DEB6AB;
+	color: white;
+}
+
+.btn-monet {
+	color: sage;
+}
+
+.btn-monet:hover {
+	color: #B7CADB;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+/* Design adjustment using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
